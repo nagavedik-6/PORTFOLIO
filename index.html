@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naga Vedik Krishna Bellam | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header>
+        <a href="#" class="logo" onclick="switchPage('home')">Naga Vedik Krishna Bellam</a>
+        
+        <!-- Mobile Hamburger Toggle Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a class="nav-link active" onclick="switchPage('home')">Home</a></li>
+                <li><a class="nav-link" onclick="switchPage('about')">About</a></li>
+                <li><a class="nav-link" onclick="switchPage('academics')">Academics</a></li>
+                <li><a class="nav-link" onclick="switchPage('skills')">Skills</a></li>
+                <li><a class="nav-link" onclick="switchPage('projects')">Projects</a></li>
+                <li><a class="nav-link" onclick="switchPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME PAGE -->
+        <section id="home" class="page-section active">
+            <div class="card home-card">
+                <h1>Naga Vedik Krishna Bellam</h1>
+                <h2>B.Tech Computer Science & Engineering Student</h2>
+                <p>
+                    Welcome to my professional portfolio. Dedicated to engineering high-performance software systems, scalable backend architectures, and precise modern digital solutions.
+                </p>
+                <button class="btn" onclick="switchPage('about')">Explore Profile</button>
+            </div>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="about" class="page-section">
+            <div class="card">
+                <div class="profile-grid">
+                    <div class="profile-img-container">
+                        <img src="image_69f283.jpg" alt="Naga Vedik Krishna Bellam Profile Photo">
+                    </div>
+                    <div>
+                        <h2>About Me</h2>
+                        <p class="about-desc">
+                            I am an ambitious engineering undergraduate pursuing my Bachelor of Technology in Computer Science and Engineering. Grounded in rigorous problem-solving and modern programming paradigms, I specialize in developing robust applications using Python and Java.
+                        </p>
+                        <p class="about-desc">
+                            Alongside my academic commitments, I actively maintain a disciplined lifestyle with a strong passion for competitive sports, cultivating teamwork, endurance, and focused execution.
+                        </p>
+                        <div>
+                            <h3>Interests & Hobbies</h3>
+                            <p class="about-interests">Sports, Software Engineering, Full Stack Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACADEMICS PAGE -->
+        <section id="academics" class="page-section">
+            <div class="section-header">
+                <h2>Academic Credentials</h2>
+                <p>A verified record of educational milestones and performance.</p>
+            </div>
+            <div class="grid-3">
+                <div class="info-card">
+                    <h3>B.Tech (CSE)</h3>
+                    <p>Computer Science & Engineering</p>
+                    <div class="score">6.4 CGPA</div>
+                </div>
+                <div class="info-card">
+                    <h3>Intermediate / Board of Secondary Education</h3>
+                    <p>Higher Secondary Curriculum</p>
+                    <div class="score">867 Marks</div>
+                </div>
+                <div class="info-card">
+                    <h3>SSC</h3>
+                    <p>Secondary School Certificate</p>
+                    <div class="score">522 Marks</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS PAGE -->
+        <section id="skills" class="page-section">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+                <p>Core programming languages and engineering proficiencies.</p>
+            </div>
+            <div class="grid-3">
+                <div class="info-card">
+                    <h3>Python</h3>
+                    <p>Data operations, database connectors, backend script automation, and logic development.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Java</h3>
+                    <p>Object-oriented programming, robust architecture design, and system reliability.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Full Stack Development</h3>
+                    <p>Developing responsive client-facing interfaces and secure server-side integrations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="projects" class="page-section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Key software applications and technical implementations.</p>
+            </div>
+            <div class="projects-container">
+                <div class="info-card">
+                    <h3>Expense AI</h3>
+                    <p>An intelligent expense tracking and financial management web application designed to help users monitor spending habits with automated insights.</p>
+                    <div class="tech-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Web App</span>
+                    </div>
+                    <a href="https://nagavedik-6.github.io/EXPENSE_AI/" target="_blank" rel="noopener noreferrer" class="btn-outline">Live Demo &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" class="page-section">
+            <div class="card contact-card">
+                <h2 class="contact-title">Get in Touch</h2>
+                <p class="contact-subtitle">Connect directly through email, phone, or professional networks.</p>
+                
+                <div class="contact-layout">
+                    <div class="contact-info-list">
+                        <div class="contact-item">
+                            <div>
+                                <strong class="contact-label">Email Address</strong>
+                                <p class="contact-subtext">vu.241fa04598@gmail.com</p>
+                            </div>
+                            <a href="mailto:vu.241fa04598@gmail.com?subject=Hello%20Naga%20Vedik&body=Hi%20Naga,%0D%0A%0D%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20with%20you." class="btn contact-action-btn">Email Me</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <div>
+                                <strong class="contact-label">Mobile Number</strong>
+                                <p class="contact-subtext" id="phone-container">
+                                    <span class="hidden-data">••••••••••</span>
+                                </p>
+                            </div>
+                            <button class="btn contact-action-btn" id="reveal-btn" onclick="revealPhone()">Reveal</button>
+                        </div>
+
+                        <div class="contact-item">
+                            <div>
+                                <strong class="contact-label">GitHub Profile</strong>
+                                <p class="contact-subtext">github.com/nagavedik-6</p>
+                            </div>
+                            <a href="https://github.com/nagavedik-6" target="_blank" rel="noopener noreferrer" class="btn contact-action-btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Naga Vedik Krishna Bellam. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
